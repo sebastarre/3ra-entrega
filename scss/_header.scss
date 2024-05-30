@@ -1,0 +1,23 @@
+header{
+    .navbar-toggler{
+        color: #000000;
+    }
+    .nav-item{
+        color: #000000;
+    }
+    .btn{
+        color: #000000;
+        background-color: #ffffff;
+        border-color: #000000;
+    }
+    .btn:hover{
+        background-color: #f4d748;
+        border-color: #f4d748;
+        color: #000000;
+    }
+    .btn-outline-success:active{
+        background-color: #dac141;
+        border-color: #dac141;
+        color: #000000;
+    }
+}

@@ -4,4 +4,88 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #ececec;
+}
+
+header .navbar-toggler {
+  color: #000000;
+}
+header .nav-item {
+  color: #000000;
+}
+header .btn {
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #000000;
+}
+header .btn:hover {
+  background-color: #f4d748;
+  border-color: #f4d748;
+  color: #000000;
+}
+header .btn-outline-success:active {
+  background-color: #dac141;
+  border-color: #dac141;
+  color: #000000;
+}
+
+footer {
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+footer div a {
+  text-decoration: none;
+  color: #000000;
+  margin: 2px;
+}
+footer div a:hover {
+  color: #dac141;
+}
+
+.pag-inicio .carousel {
+  margin-bottom: 15px;
+}
+.pag-inicio .sct-ofertas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 1px solid #b3b3b3;
+}
+.pag-inicio .sct-ofertas .ofertas {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pag-inicio .sct-ofertas .ofertas div {
+  margin: 2px;
+  width: 10rem;
+  border: 1px solid #000000;
+  text-align: center;
+}
+.pag-inicio .sct-ofertas a {
+  text-decoration: none;
+  color: #000000;
+}
+.pag-inicio .sct-ofertas a:hover {
+  color: #dac141;
+}
+.pag-inicio .cards-perfumes-inicio {
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pag-inicio .cards-perfumes-inicio .card {
+  margin: 5px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  transition: all 400ms ease;
+  overflow: hidden;
+}
+.pag-inicio .cards-perfumes-inicio .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+
 /*# sourceMappingURL=estilo.css.map */

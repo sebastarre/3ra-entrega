@@ -1,5 +1,51 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import "general";
+@import "header";
+@import "footer";
+
+
+.pag-inicio{
+    .carousel{
+        margin-bottom: 15px;
+    }
+    .sct-ofertas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-bottom: 1px solid #b3b3b3;
+        .ofertas{
+            margin: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            div{
+                margin: 2px;
+                width: 10rem;
+                border: 1px solid #000000;
+                text-align: center;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: #000000;
+        }
+        a:hover{
+            color: #dac141;
+        }
+    }
+    .cards-perfumes-inicio{
+        margin: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card{
+            margin: 5px;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+            transition: all 400ms ease;
+            overflow: hidden;
+        }
+        .card:hover{
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+            transform: translateY(-5px);
+        }
+    }
 }
