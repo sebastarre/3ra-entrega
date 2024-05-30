@@ -29,6 +29,13 @@ header .btn-outline-success:active {
   border-color: #dac141;
   color: #000000;
 }
+header .dropdown-menu a {
+  text-decoration: none;
+  color: #000000;
+}
+header .dropdown-menu a:hover {
+  color: #dac141;
+}
 
 footer {
   background-color: #ffffff;
@@ -84,6 +91,23 @@ footer div a:hover {
   overflow: hidden;
 }
 .pag-inicio .cards-perfumes-inicio .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+
+.main-descuentos {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-descuentos .card {
+  margin: 5px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  transition: all 400ms ease;
+  overflow: hidden;
+}
+.main-descuentos .card:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
   transform: translateY(-5px);
 }
