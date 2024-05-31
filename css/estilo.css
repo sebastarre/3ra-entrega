@@ -112,4 +112,38 @@ footer div a:hover {
   transform: translateY(-5px);
 }
 
+.main-masculinas {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-masculinas .card {
+  margin: 5px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  transition: all 400ms ease;
+  overflow: hidden;
+}
+.main-masculinas .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+
+.main-femeninas {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-femeninas .card {
+  margin: 5px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  transition: all 400ms ease;
+  overflow: hidden;
+}
+.main-femeninas .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+
 /*# sourceMappingURL=estilo.css.map */
