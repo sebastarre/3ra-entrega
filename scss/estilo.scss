@@ -39,6 +39,7 @@
         justify-content: center;
         .card{
             margin: 5px;
+            width: 18rem;
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
             transition: all 400ms ease;
             overflow: hidden;
@@ -95,5 +96,52 @@
     .card:hover{
         box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
         transform: translateY(-5px);
+    }
+}
+.formulario{
+    h1{
+        padding: 10px;
+        border-bottom: solid 1px #000000;
+    }
+    margin: 10px;
+    text-align: center;
+    form{
+        margin-top: 15px;
+    }
+    .botones-formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .btn{
+            margin: 20px;
+        }
+    }
+}
+.main-ayuda-sucursales{
+    text-align: center;
+    h1{
+        padding: 7px;
+border-bottom: solid 1px #000000;
+    }
+    .cards-ayuda{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card{
+            margin: 5px;
+        }
+    }
+    .ubicaciones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2{
+        width: 70vh;
+        padding: 7px;
+        border-bottom: solid 1px #000000;
+        }
+        .card{
+            margin: 10px;
+        }
     }
 }
