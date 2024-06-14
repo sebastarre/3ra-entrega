@@ -138,19 +138,19 @@ footer div a:hover {
   transform: translateY(-5px);
 }
 
-.main-femeninas {
+.main-femeninas .cards-femeninas {
   margin: 10px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.main-femeninas .card {
+.main-femeninas .cards-femeninas .card {
   margin: 5px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   transition: all 400ms ease;
   overflow: hidden;
 }
-.main-femeninas .card:hover {
+.main-femeninas .cards-femeninas .card:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
   transform: translateY(-5px);
 }
@@ -202,6 +202,29 @@ footer div a:hover {
 }
 .main-ayuda-sucursales .ubicaciones .card {
   margin: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .sct-ofertas {
+    flex-direction: column;
+    align-items: center;
+  }
+  .formulario .mb-3 {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  .main-masculinas .cards-masculinas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .main-femeninas .cards-femeninas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
