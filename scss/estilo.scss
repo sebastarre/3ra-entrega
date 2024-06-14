@@ -27,9 +27,9 @@
         a{
             text-decoration: none;
             color: #000000;
-        }
-        a:hover{
+            &:hover{
             color: #dac141;
+            }
         }
     }
     .cards-perfumes-inicio{
@@ -174,11 +174,11 @@ border-bottom: solid 1px #000000;
             justify-content: space-around;       
         }
     }
-    .main-descuentos {  display: grid;
+    .main-descuentos {
+        display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.005fr 5fr 5fr 5fr 5fr 1fr;
         grid-auto-columns: 1fr;
-        gap: 0px 1px;
         grid-auto-flow: row;
         grid-template-areas:
           "header"
